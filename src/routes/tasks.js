@@ -20,4 +20,6 @@ router.delete("/:id", deleteTask);
 
 router.patch("/:id", updateTask);
 
+router.put("/:id", updateTask);
+
 export default router;
